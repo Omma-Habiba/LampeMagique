@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/grosbouton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="@color/red"
+        android:text="@string/color"
+        app:layout_constraintBottom_toTopOf="@+id/rougeplus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="3" />
+
+    <Button
+        android:id="@+id/rougeplus"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/redplus"
+        app:layout_constraintBottom_toTopOf="@+id/vertplus"
+        app:layout_constraintEnd_toStartOf="@+id/rougemoins"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grosbouton"
+        app:layout_constraintVertical_weight="1" />
+
+    <Button
+        android:id="@+id/rougemoins"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/redmoins"
+        app:layout_constraintBottom_toTopOf="@+id/vertmoins"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/rougeplus"
+        app:layout_constraintTop_toBottomOf="@+id/grosbouton"
+        app:layout_constraintVertical_weight="1" />
+
+    <Button
+        android:id="@+id/vertplus"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/vertplus"
+        app:layout_constraintBottom_toTopOf="@+id/bleuplus"
+        app:layout_constraintEnd_toStartOf="@+id/vertmoins"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rougeplus"
+        app:layout_constraintVertical_weight="1" />
+
+    <Button
+        android:id="@+id/vertmoins"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/vertmoins"
+        app:layout_constraintBottom_toTopOf="@+id/bleumoins"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/vertplus"
+        app:layout_constraintTop_toBottomOf="@+id/rougemoins"
+        app:layout_constraintVertical_weight="1" />
+
+    <Button
+        android:id="@+id/bleuplus"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/bleuplus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bleumoins"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vertplus"
+        app:layout_constraintVertical_weight="1" />
+
+    <Button
+        android:id="@+id/bleumoins"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/bleumoins"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bleuplus"
+        app:layout_constraintTop_toBottomOf="@+id/vertmoins"
+        app:layout_constraintVertical_weight="1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

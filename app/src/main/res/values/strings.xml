@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MagicLamp</string>
+    <string name="color">RED : 255 ; GREEN : 0 ; BLUE : 0</string>
+    <string name="redplus">+RED</string>
+    <string name="redmoins">-RED</string>
+    <string name="vertplus">+GREEN</string>
+    <string name="vertmoins">-GREEN</string>
+    <string name="bleuplus">+BLUE</string>
+    <string name="bleumoins">-BLUE</string>
+    <string name="rouge">RED</string>
+    <string name="vert">GREEN</string>
+    <string name="bleu">BLUE</string>
+    <string name="nom">Author : Omma Habiba BIPLOB</string>
+    <string name="colorinitial">Initial Color ?</string>
+</resources>

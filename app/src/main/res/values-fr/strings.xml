@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LampeMagique</string>
+    <string name="color">ROUGE : 255 ; VERT : 0 ; BLEU : 0</string>
+    <string name="redplus">+ROUGE</string>
+    <string name="redmoins">-ROUGE</string>
+    <string name="vertplus">+VERT</string>
+    <string name="vertmoins">-VERT</string>
+    <string name="bleuplus">+BLEU</string   >
+    <string name="bleumoins">-BLEU</string>
+    <string name="rouge">ROUGE</string>
+    <string name="vert">VERT</string>
+    <string name="bleu">BLEU</string>
+    <string name="nom">Auteur : Omma Habiba BIPLOB</string>
+    <string name="colorinitial">Couleur initiale ?</string>
+</resources>
